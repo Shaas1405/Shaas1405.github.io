@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background-color: #252e2e;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #45c69b;
+    display: flex;
+    gap: 5%;
+    padding: 1.2%;
+    padding-left: 2%;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+.navbar a {
+    border-right-style: solid;
+    border-left-style: solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    font-size: 1.2em;
+    height: 1.5%;
+    align-content: center;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.contact_info {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 50%;
+    color: white;
+    border-top-style: solid;
+    margin: 4%;
+    padding-left: 12%;
+    padding-top: 3%;
+}
+
+.contact_info summary {
+    display: block;
+}
+
+.contact_info p {
+    visibility: visible;
+}
